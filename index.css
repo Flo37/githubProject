@@ -1,20 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 * {
     margin: 0;
     box-sizing: border-box;
+    width: 80vw;
+    height: 10vh;
+    font-family: "Playfair Display", serif;
+    font-style: normal;
 }
 
 body {
     padding: 1rem;
-    justify-items: center;
+    /* justify-items: center; */
+    background-color: #000000db;
 }
 
+/* ____________________________________________________________________ */
 .box {
+    padding: 1rem;
+}
+
+span {
+    width: 40px;
+    height: 15px;
+    background-color: bisque;
+    position: absolute;
+    top: 10px;
+    border-radius: 80px 45px;
+    box-shadow: 2px 8px 2px 1px rgb(137, 76, 76);
+}
+
+span:hover {
+    transform: scale(1.1);
+}
+
+.nav_container {
+    border-radius: 10px;
+    background-color: rgb(218, 224, 230);
+    width: 150px;
+    height: 60vh;
+    position: relative;
+    top: -90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-wrap: nowrap;
+    text-align: center;
+}
+
+.nav_list {
+    list-style: none;
+    font-weight: 600;
+    /* margin: 25px 0; */
+    width: 80px;
+    /* height: 20px; */
+    transition: .5s;
+
+}
+
+.nav_list:hover {
+    color: rgb(25, 39, 52);
+    border-radius: 10px;
+    padding: 1rem .4rem;
+    text-align: center;
+    background-color: rgb(151, 146, 140);
+}
+
+/* ______________________________________________________________________________________ */
+
+.header_text {
+    color: rgb(69, 69, 118);
+    position: relative;
+    left: 150px;
+    top: -40px;
+    font-size: 1.6rem;
+    padding: 5px;
+    max-width: 100%;
+}
+
+.text_body {
+    color: #ddd7d7;
+    margin: 0 155px;
+    max-width: 90%;
+}
+
+/* ___________________________________________________________________________ */
+
+/* header_video */
+
+.header_video {
+    border-radius: 5px;
+    width: 90vw;
+    max-width: 90%;
+    object-fit: cover;
+    position: relative;
+    left: 10rem;
+    top: 6px;
+}
+
+/* ___________________________________________________________________________________ */
+
+/* .box {
     background-color: rgba(100, 97, 91, 0.856);
     width: 80%;
     height: 95vh;
     align-content: center;
     text-align: center;
     margin: 0;
+    overflow: auto;
 }
 
 .header_video {
@@ -26,7 +119,9 @@ body {
 
 .video_yoga {
     width: 60%;
-    /* height: 45vh; */
+
+
+
 }
 
 .nav_container {
@@ -40,4 +135,13 @@ body {
 .nav_list {
     list-style: none;
     align-self: center;
+    transition: .15s;
+    font-weight: 700;
+    font-size: 1.6rem;
 }
+
+.nav_list:hover {
+    transform: scale(1.1);
+    color: #d4caca;
+    text-shadow: 2px 2px 2px #000;
+} */
