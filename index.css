@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1rem;
+    justify-items: center;
+}
+
+.box {
+    background-color: rgba(100, 97, 91, 0.856);
+    width: 80%;
+    height: 95vh;
+    align-content: center;
+    text-align: center;
+    margin: 0;
+}
+
+.header_video {
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+
+}
+
+.video_yoga {
+    width: 60%;
+    /* height: 45vh; */
+}
+
+.nav_container {
+    margin: 10px;
+    height: 76px;
+    background-color: tomato;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav_list {
+    list-style: none;
+    align-self: center;
+}
